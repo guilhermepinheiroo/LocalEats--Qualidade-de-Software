@@ -31,7 +31,7 @@ Sim. Um sistema pode implementar todas as funcionalidades explicitamente solicit
 
 | Integrante | Funcionalidade | O que foi realizado | O que foi observado | Evidência |
 |---|---|---|---|---|
-| Guilherme Pinheiro | Pesquisar restaurantes por especialidade ou localização | **Utilização esperada:** informar uma especialidade ou localização válida no campo de pesquisa e verificar os restaurantes apresentados. **Utilização alternativa:** realizar a pesquisa com um termo vazio ou com um termo para o qual não existam resultados. | **A preencher após a execução:** registrar somente o comportamento efetivamente observado na interface, incluindo se os resultados são compatíveis com a pesquisa e como o sistema trata uma pesquisa sem resultados/entrada incompleta. | `guilherme-pesquisa-restaurantes.png` |
+| Guilherme Pinheiro | Pesquisar restaurantes por especialidade ou localização | **Utilização esperada:** informar uma especialidade ou localização válida no campo de pesquisa e verificar os restaurantes apresentados. **Utilização alternativa:** realizar a pesquisa com um termo vazio ou com um termo para o qual não existam resultados. | **A preencher após a execução:** registrar somente o comportamento efetivamente observado na interface, incluindo se os resultados são compatíveis com a pesquisa e como o sistema trata uma pesquisa sem resultados/entrada incompleta. | ![Captura da pesquisa de restaurantes](./evidencias/guilherme-pesquisa-restaurantes.png) |
 
 ## Tarefa 3 — Requisitos e características de qualidade
 
