@@ -4,7 +4,10 @@ Repositório da equipe para as atividades da Unidade Curricular Qualidade de Sof
 Equipe
 | Nome | Turma | Usuário no GitHub |
 
-|Guilherme Pinheiro| Noite | guilhermepinheiroo |
+Guilherme Pinheiro| Noite | guilhermepinheiroo 
+Otavio Vieira| Noite | otaviovieiraa
+
+
 
 Atividades
 atividades/atividade-01/
