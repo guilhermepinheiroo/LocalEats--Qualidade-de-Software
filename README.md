@@ -2,9 +2,11 @@ LocalEats: Projeto de Qualidade de Software
 Repositório da equipe para as atividades da Unidade Curricular Qualidade de Software.
 
 Equipe
+
 | Nome | Turma | Usuário no GitHub |
 
 Guilherme Pinheiro| Noite | guilhermepinheiroo 
+
 Otavio Vieira| Noite | otaviovieiraa
 
 
