@@ -18,7 +18,7 @@ Verificar se o LocalEats permite que usuários autenticados realizem pedidos som
 
 | Integrante | Funcionalidade incluída | O que será verificado |
 |---|---|---|
-| Guilherme Pinheiro | Fazer pedido | Condições necessárias para concluir um pedido, comportamento com dados válidos e tratamento de situações inválidas ou incompletas. |
+| Otavio Vieira | Fazer pedido | Condições necessárias para concluir um pedido, comportamento com dados válidos e tratamento de situações inválidas ou incompletas. |
 
 | Funcionalidade não incluída | Justificativa |
 |---|---|
@@ -56,8 +56,8 @@ Verificar se o LocalEats permite que usuários autenticados realizem pedidos som
 
 | ID | Integrante | Funcionalidade | Risco | Consequência | Probabilidade | Impacto | Prioridade | Justificativa |
 |---|---|---|---|---|---|---|---|---|
-| R01 | Guilherme Pinheiro | Fazer pedido | O sistema permitir que um usuário não autenticado conclua um pedido. | Um usuário sem autenticação poderia realizar uma ação que deveria depender da identificação da conta, comprometendo o controle do pedido e sua associação ao usuário correto. | Média | Alta | Alta | A ocorrência pode não ser frequente, mas o impacto é alto porque afeta diretamente o controle do fluxo de pedidos e a identificação do usuário. |
-| R02 | Guilherme Pinheiro | Fazer pedido | O sistema permitir a conclusão de um pedido sem que os dados necessários para o pedido estejam válidos ou completos. | O pedido pode ser criado de forma inconsistente, gerar erro no fluxo ou causar uma experiência inadequada para o usuário. | Média | Alta | Alta | O pedido é uma funcionalidade central do LocalEats e dados inválidos ou incompletos podem impedir ou comprometer sua conclusão. |
+| R01 | Otavio Vieira | Fazer pedido | O sistema permitir que um usuário não autenticado conclua um pedido. | Um usuário sem autenticação poderia realizar uma ação que deveria depender da identificação da conta, comprometendo o controle do pedido e sua associação ao usuário correto. | Média | Alta | Alta | A ocorrência pode não ser frequente, mas o impacto é alto porque afeta diretamente o controle do fluxo de pedidos e a identificação do usuário. |
+| R02 | Otavio Vieira | Fazer pedido | O sistema permitir a conclusão de um pedido sem que os dados necessários para o pedido estejam válidos ou completos. | O pedido pode ser criado de forma inconsistente, gerar erro no fluxo ou causar uma experiência inadequada para o usuário. | Média | Alta | Alta | O pedido é uma funcionalidade central do LocalEats e dados inválidos ou incompletos podem impedir ou comprometer sua conclusão. |
 
 ### 2.2 Aplicação das técnicas
 
@@ -192,8 +192,8 @@ O sistema não conclui o pedido enquanto os dados necessários estiverem incompl
 
 | Integrante | Funcionalidade | Risco ou requisito | Técnica utilizada | Casos de teste |
 |---|---|---|---|---|
-| Guilherme Pinheiro | Fazer pedido | R01: permitir pedido sem autenticação | Tabela de decisão + particionamento de equivalência | CT01 e CT02 |
-| Guilherme Pinheiro | Fazer pedido | R02: permitir pedido com dados incompletos ou inválidos | Tabela de decisão + particionamento de equivalência | CT01 e CT03 |
+| Otavio Vieira | Fazer pedido | R01: permitir pedido sem autenticação | Tabela de decisão + particionamento de equivalência | CT01 e CT02 |
+| Otavio Vieira | Fazer pedido | R02: permitir pedido com dados incompletos ou inválidos | Tabela de decisão + particionamento de equivalência | CT01 e CT03 |
 
 A matriz demonstra que os dois riscos identificados possuem casos de teste relacionados e que os casos foram derivados das técnicas escolhidas.
 
