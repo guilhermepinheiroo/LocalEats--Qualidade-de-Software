@@ -47,4 +47,3 @@ Sim. Um sistema pode implementar todas as funcionalidades explicitamente solicit
 
 **Como as respostas foram verificadas:** as respostas foram comparadas com as instruções do arquivo da atividade. Também foram mantidas somente propostas relacionadas às funcionalidades explicitamente descritas para o LocalEats.
 
-**Observação:** a evidência da exploração da aplicação deve ser produzida pelo integrante durante o acesso real ao LocalEats; não foi fabricado um resultado de execução.
