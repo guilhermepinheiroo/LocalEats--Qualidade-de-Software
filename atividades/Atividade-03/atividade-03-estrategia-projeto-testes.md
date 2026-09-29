@@ -6,7 +6,7 @@
 - **Metodologia:** Problem-Based Learning (PBL)
 - **Projeto:** LocalEats
 - **Modalidade:** Individual
-- **Integrante:** Guilherme Pinheiro
+- **Integrante:** Otavio Vieira
 
 ## Tarefa 1 — Planejamento dos testes
 
